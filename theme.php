@@ -23,12 +23,9 @@
     					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-collapse">
     						<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
     					</button>
-    					<a href="<?= $Wcms->url() ?>">
-    					    <h3>
-    					        <?= $Wcms->get('config', 'siteTitle') ?>
-    					        <span class="navbar" id="logo"></span>
-    					    </h3>
-    					</a>
+    					
+    					    <h3><a href="/"><img src="/data/files/logo.png" alt="<?=$Wcms->page('title')?>"></a></h3>
+    					
     				</div>
     				<div class="collapse navbar-collapse" id="menu-collapse">
     					<ul class="nav navbar-nav navbar-right">
